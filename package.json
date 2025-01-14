@@ -1,0 +1,33 @@
+{
+  "name": "webapp",
+  "version": "1.0.0",
+  "description": "MACT 6340 build for Spring 2025",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx nodemon app.js",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dgsmith7/webapp.git"
+  },
+  "author": "David G. Smith",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dgsmith7/webapp/issues"
+  },
+  "homepage": "https://github.com/dgsmith7/webapp#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "mysql2": "^3.12.0",
+    "nodemailer": "^6.9.16"
+  }
+}
